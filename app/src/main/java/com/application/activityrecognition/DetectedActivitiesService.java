@@ -35,7 +35,7 @@ public class DetectedActivitiesService extends IntentService {
         ArrayList<DetectedActivity> detectedActivities = (ArrayList<DetectedActivity>) activityRecognitionResult.getProbableActivities();
 
         for(DetectedActivity activity : detectedActivities){
-            Log.d(TAG,"Detected Activity : " + activity.getType() + "; " + activity.getConfidence());
+            Log.d(TAG,"Suvam : Detected Activity : " + activity.getType() + "; " + activity.getConfidence());
             sendBroadcastActivity(activity);
         }
     }

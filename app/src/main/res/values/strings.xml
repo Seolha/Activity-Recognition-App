@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">ActivityRecognition</string>
     <string name="action_settings">Settings</string>
+    <string name="activity_unknown">UNKNOWN</string>
+    <string name="activity_in_vehicle">IN VEHICLE</string>
+    <string name="activity_on_foot">ON FOOT</string>
+    <string name="activity_on_bicycle">ON BICYCLE</string>
+    <string name="activity_running">RUNNING</string>
+    <string name="activity_still">STILL</string>
+    <string name="activity_tilting">TILTING</string>
+    <string name="activity_walking">WALKING</string>
 </resources>
